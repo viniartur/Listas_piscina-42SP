@@ -1,33 +1,22 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_print_reverse_alphabet.c                        :+:      :+:    :+:   */
+/*   ft_print_comb2.c                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: vvieira <vvieira@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/04/17 15:40:13 by vvieira           #+#    #+#             */
-/*   Updated: 2025/04/18 18:32:43 by vvieira          ###   ########.fr       */
+/*   Created: 2025/04/20 18:35:25 by vvieira           #+#    #+#             */
+/*   Updated: 2025/04/20 18:35:44 by vvieira          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <unistd.h>
-
-void	ft_print_reverse_alphabet(void)
-{
-	int	i;
-
-	i = 122;
-	while (i >= 97)
-	{
-		write(1, &i, 1);
-		i--;
-	}
-}
-// int main()
-// {
-// 	ft_print_reverse_alphabet();
-// }
-// • Escreva uma função que exiba o alfabeto em minúsculas, numa única linha, em
-// ordem crescente, começando pela letra ’a’.
+// Pasta de entrega : ex06/
+// Ficheiros para entregar : ft_print_comb2.c
+// Funções autorizadas : write
+// • Escreva uma função que exiba todas as diferentes combinações de dois números
+// entre 0 e 99, em ordem crescente.
+// • Isso resulta em algo do tipo:
+// $>./a.out | cat -e
+// 00 01, 00 02, 00 03, 00 04, 00 05, ..., 00 99, 01 02, ..., 97 99, 98 99$>
 // • Ela deve ser prototipada da seguinte maneira:
-// void ft_print_alphabet(void);
+// void ft_print_comb2(void);

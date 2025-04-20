@@ -1,33 +1,19 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_print_reverse_alphabet.c                        :+:      :+:    :+:   */
+/*   ft_putnbr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: vvieira <vvieira@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/04/17 15:40:13 by vvieira           #+#    #+#             */
-/*   Updated: 2025/04/18 18:32:43 by vvieira          ###   ########.fr       */
+/*   Created: 2025/04/20 18:35:56 by vvieira           #+#    #+#             */
+/*   Updated: 2025/04/20 18:36:03 by vvieira          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <unistd.h>
-
-void	ft_print_reverse_alphabet(void)
-{
-	int	i;
-
-	i = 122;
-	while (i >= 97)
-	{
-		write(1, &i, 1);
-		i--;
-	}
-}
-// int main()
-// {
-// 	ft_print_reverse_alphabet();
-// }
-// • Escreva uma função que exiba o alfabeto em minúsculas, numa única linha, em
-// ordem crescente, começando pela letra ’a’.
+// • Escreva uma função que exiba um número passado como parâmetro. A função
+// deverá ser capaz de representar a totalidade dos valores possíveis em uma variável
+// do tipo int.
 // • Ela deve ser prototipada da seguinte maneira:
-// void ft_print_alphabet(void);
+// void ft_putnbr(int nb);
+// • Por exemplo:
+// ◦ ft_putnbr(42) exibe "42"
